@@ -1,0 +1,484 @@
+html,body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+    overflow-x: hidden;
+     width: 100%;
+     height: 100%;
+}
+/* header{
+    position:absolute;
+} */
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color:#E42176;
+} 
+.navbar span h1{
+    margin-left:1rem;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-items li{
+    margin: 0px 16px;
+    list-style: none;
+   
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-items li a:hover{
+    color: white;
+}
+.mobile-nav{
+    display:none;
+    
+}
+.hamburgermenu{
+    display: none;
+}
+
+.nav-item{
+    list-style: none;
+    margin: 10px 0px;
+}
+.nav-items li button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: white;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    /* transition: 0.5s ease; */
+}
+.nav-item a:hover{
+    color: white;
+}
+.nav-item button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.LoginIn{
+    background-color: black!important;
+}
+#wrong_bar{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+ .menu-icon{
+    cursor: pointer;
+ }
+#mobile_nav_menu{
+    background-color: #E42176;
+    padding: 20px;
+    margin-top: 0px;
+     padding-left:3rem;
+
+}
+.section_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+   
+}
+.section_one div{
+    font-size: 40px;
+     width: 70%;
+  
+}
+.section_one span{
+    color: #E42176;
+}
+.section_one div p {
+    font-size: 2rem;
+}
+.check_box{
+    margin: 10px;
+    color:#E42176;
+}
+.getstarted{
+    height: 50px;
+    background-color: black;
+    width: 150px;
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.section_two{
+    width: 100%;
+    height:60vh;
+    background-image: linear-gradient(#95cddf ,rgb(182, 194, 198));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    text-align: center;
+}
+.section_two div h1{
+    font-size: 4rem;
+    line-height: 5rem;
+}
+.section_two div p{
+    font-size: 30px;
+    text-align: center;
+    padding:1rem 2rem;
+    font-weight: 200;
+    line-height: 2rem;
+
+}
+.section_two div button{
+    height: 40px;
+    width: 150px;
+    border:none;
+    border-radius: 5px;
+    background-color: #a41111;
+    color: white;
+}
+.section_three{
+    width: 100% !important;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section_three_img-con{
+    width: 50%;
+}
+.section_three_img-con img{
+    width: 100%;
+    
+}
+.our_vision_con{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    /* padding: 2rem; */
+}
+.our_vision_con h1{
+    color: #E42176;
+    font-size: 5rem;
+    margin-top: 2rem!important;
+    margin-bottom: 0px;
+}
+.our_vision_con p{
+    font-size: 2rem;
+  line-height: 3rem;
+}
+.section_four{
+   text-decoration: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.section_four h2{
+  margin-left: 5.5rem;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 80%; */
+    /* margin: auto; */
+
+}
+.course-card-con{
+    margin: 1rem;
+    width: 300px;
+
+}
+.course-card-con img{
+  width:100%;
+  border-radius: 5px;
+   
+}
+.section_five{
+    background-image: url(images/1923063-how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-container{
+    text-align: center;
+    width:50%;
+}
+.offer-con-heading{
+    font-size: 5rem;
+    color: white;
+}
+.offer-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+.offer_card{
+    color: white;
+    /* margin-top: 2rem; */
+   
+}
+.offer-card h3{
+    color: white;
+    font-family:sans-serif;
+    margin: 3rem;
+}
+.icon{
+    font-size:60px;
+    background-color: transparent;
+    color: white;
+}
+
+
+/* footer */
+.footer{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+.footer-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:100px;
+    padding:30px 30px;
+   
+}
+/* .card-1{
+    display: flex;
+    flex-direction: column;
+} */
+.footer-card{
+    width: 300px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-container{
+    color:white;
+    text-align: center;
+}
+
+.copyright-container span{
+    padding: 15px;
+}
+.social-media-con{
+    margin-top: 30px;
+}
+.social-media-con i{
+    margin-right: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+.copy-right{
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+
+
+/* section_six */
+.colab-con{
+    background-color:  #d4198079;
+    height: 60vh;
+    margin-top:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colab-con h1{
+    font-size: 80px;
+    color: white;
+    font-weight: 1000;
+}
+.colab-con p{
+    font-size: 30px;
+    color: white;
+
+}
+.colab-con  span{
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    width: 400px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.colab-con  span i{
+    margin-left: 10px;
+}
+
+
+
+/* section_seven_css */
+
+.program-card-con{
+    background-image: url(images/1923063-how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+    /* height: 100vh; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:0px;
+
+}
+.cards-container{
+   display:flex;
+  flex-wrap: wrap;
+   
+}
+.card-con-desc h3{
+    color:#333333;
+
+}
+.card-con-desc p{
+    color: #666666;
+}
+.pragram-card{
+    background-color: white;
+    width: 300px;
+    margin-bottom: 20px;
+    height: 40vh;
+    margin-right: 25px;
+    padding: 25px;
+}
+.pragram-card span{
+   
+    color: rgb(231, 16, 167);
+    font-size: 25px;
+   background-color:#f0e8e87c;
+   padding: 18px;
+}
+.pragram-card li{
+    list-style: none;
+    color: #666666; 
+    margin-bottom: 0.5rem;
+}
+.program-desc{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.program-desc{
+    color: white;
+    font-size: 30px;
+
+}
+.btn{
+    height: 40px;
+    width: 140px;
+    background-color: black;
+    color: white;
+}
+
+
+/* section_eight */
+.our-studio-bg-image{
+    background-image: url("images/socialmedia\ bg\ image.avif");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.our-studio-bg-image div{
+    width: 400px;
+}
+.our-studio-bg-image div h1{
+    font-size: 80px;
+    color: rgb(231, 16, 167);
+    text-align: center;
+}
+.our-studio-bg-image div p{
+    font-size: 30px;
+    color: black;
+    font-family: cursive;
+    font-weight: 500;
+   
+}
+
+
+/* section_nine */
+
+.form-bg-con{
+    background-color: orange;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.form-bg-con div h1{
+    font-size: 80px;
+    font-weight: 1000;
+    font-family: sans-serif;
+}
+.form-bg-con div p{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+form{
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+.submit-btn{
+    background-color: black;
+    color: white;
+    width: 80%;
+}
+.inputs{
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+button{
+    cursor: pointer;
+}
+

@@ -1,0 +1,176 @@
+@media (max-width:700px) {
+    header{
+        width: 100%;
+    }
+    .nav-items{
+        display: none;
+    }
+
+    .hamburgermenu{
+        display: block;
+        margin-right: 20px;
+    }
+    .menu-icon{
+        display: block;
+        font-size: 30px;
+        color: white;
+        border: 1px solid white;
+        padding: 5px;
+    }
+
+    .menu-close-icon{
+        display: none;
+    
+    }
+    .mobile-nav{
+        display: none;
+    }
+    .section_one{
+        height: 50vh;
+    }
+
+    .section_one div{
+        font-size: 1.5rem;
+        width: 80%;
+        text-align: center;
+        padding: 2rem;
+       
+    }
+    .section_one div p {
+        font-size: 1rem;
+    }
+    .section_three{
+        display: flex;
+        flex-direction: column;
+    }
+    .section_three_img-con{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .section_three_img-con img{
+        width: 90%;
+      
+    }
+    .section_two div h1{
+        font-size: 3rem;
+    }
+    .section_two div p{
+        font-size: 1.5rem;
+    }
+    .our_vision_con{
+        width: 90%;
+        text-align: center;
+    }
+
+    .our_vision_con h1{
+        color: #E42176;
+        font-size: 4rem;
+    }
+    .our_vision_con p{
+        
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .course-card-con img{
+        width: 100%;
+    }
+    .offer-con-heading{
+        font-size: 2rem;
+        color: white;
+    }
+    .offer-card h3{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    .icon{
+        font-size:35px;
+    }
+
+
+    /* footter */
+    .footer-card{
+        display: flex;
+        flex-direction:column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .footer-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+    .copyright-container{
+
+    }
+
+    /* section_six */
+
+    .colab-con h1{
+        font-size: 40px;
+    }
+    .colab-con p{
+        font-size: 20px;
+    }
+    .colab-con  span{
+        width: 300px;
+        font-size: 20px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+
+    /* section_seven */
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .pragram-card{
+        width:100%;
+    }
+    .program-desc h1{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .program-desc p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* section_eight */
+
+    .our-studio-bg-image div h1{
+        font-size: 40px;
+    }
+    .our-studio-bg-image div p{
+        font-size: 20px;
+
+    }
+
+
+    /* section_nine */
+    .form-bg-con{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-bg-con div h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .form-bg-con div p{
+        font-size: 18px;
+    }
+    .submit-btn{
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    
+
+
+}
